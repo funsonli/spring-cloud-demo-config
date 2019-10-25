@@ -1,7 +1,4 @@
-foo : bar
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://127.0.0.1:8079/eureka/
-
+zookeeper:
+  url: 127.0.0.1:2181
+  timeout: 1000
+  retry: 3
